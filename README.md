@@ -20,7 +20,7 @@ This repository demonstrates a modular, production-ready AWS Serverless architec
 | Workflow        | AWS Step Functions        |
 | Infrastructure  | AWS SAM (YAML templates)  |
 | Observability   | CloudWatch, AWS X-Ray     |
-| DevOps          | GitHub Actions or SAM CLI |
+| DevOps          | SAM CLI |
 
 ## Getting Started
 
