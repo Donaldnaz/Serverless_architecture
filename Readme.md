@@ -73,7 +73,6 @@ After deployment, test your API endpoint by:
 
    * **Access logging**
    * **Execution logging**
-   * **AWS X-Ray tracing** (optional)
 
 ### Use CloudWatch Live Tail
 
