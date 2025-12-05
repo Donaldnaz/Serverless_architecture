@@ -9,7 +9,7 @@ This project demonstrates how to build and monitor a basic RESTful API using AWS
 
 ## Architecture
 
-<img width="687" height="307" alt="image" src="https://github.com/user-attachments/assets/81a67159-099b-4160-afb0-158caae102e0" />
+<img width="900" height="307" alt="image" src="https://github.com/user-attachments/assets/81a67159-099b-4160-afb0-158caae102e0" />
 
 
 ## Implementation
