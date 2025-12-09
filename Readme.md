@@ -72,17 +72,17 @@ Typical layout used in this repo:
 - Clone this repository.  
 - Install dependencies if a `requirements.txt` file is present.
 
-<img width="1440" height="778" alt="Screenshot 2025-12-09 at 2 51 42 PM" src="https://github.com/user-attachments/assets/fd1b5f93-6fbc-4402-bbb5-417f3294c2ac" />
+<img width="1200" height="778" alt="Screenshot 2025-12-09 at 2 51 42 PM" src="https://github.com/user-attachments/assets/fd1b5f93-6fbc-4402-bbb5-417f3294c2ac" />
 
 - Validate the infrastructure template using AWS SAM.
 
-<img width="1440" height="777" alt="Screenshot 2025-12-09 at 3 05 26 PM" src="https://github.com/user-attachments/assets/e77058a0-1610-4ee2-97c2-629919267f54" />
+<img width="1200" height="777" alt="Screenshot 2025-12-09 at 3 05 26 PM" src="https://github.com/user-attachments/assets/e77058a0-1610-4ee2-97c2-629919267f54" />
 
 - Deploy the stack using `sam deploy`.
   
 - After deployment, copy the API endpoint URL from the stack outputs and test the routes with curl.
   
-<img width="1440" height="779" alt="Screenshot 2025-12-09 at 3 12 40 PM" src="https://github.com/user-attachments/assets/3220dae9-e6c9-4d4a-8f0c-b463d69db5cc" />
+<img width="1200" height="779" alt="Screenshot 2025-12-09 at 3 12 40 PM" src="https://github.com/user-attachments/assets/3220dae9-e6c9-4d4a-8f0c-b463d69db5cc" />
 
 ## Monitoring and Observability
 
