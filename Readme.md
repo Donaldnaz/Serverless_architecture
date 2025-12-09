@@ -8,7 +8,7 @@ The goal of the project is to implement a production style event driven applicat
 
 The solution follows a serverless, event driven design:
 
-<img width="1000" height="600" alt="image" src="https://github.com/user-attachments/assets/83fd06fc-39da-45d2-8a37-5122fe4fffec" />
+<img width="1390" height="532" alt="image" src="https://github.com/user-attachments/assets/ff09d332-1a42-43f5-8c4a-95c7f479ee11" />
 
 
 | Layer           | AWS Service        | Purpose                                                      |
