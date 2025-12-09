@@ -36,7 +36,7 @@ This architecture removes the need to manage servers while still supporting high
 * Amazon EventBridge or Amazon SQS  
 * Amazon CloudWatch Logs and Metrics  
 * AWS IAM  
-* CloudFormation or AWS SAM  
+* CloudFormation/AWS SAM  
 * Python  
 * Bash for automation scripts  
 
