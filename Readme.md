@@ -8,6 +8,9 @@ The goal of the project is to implement a production style event driven applicat
 
 The solution follows a serverless, event driven design:
 
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/83fd06fc-39da-45d2-8a37-5122fe4fffec" />
+
+
 | Layer           | AWS Service        | Purpose                                                      |
 | --------------- | ------------------ | ------------------------------------------------------------ |
 | **Client**      | Web / Mobile App   | Sends REST API requests to AWS API Gateway                   |
