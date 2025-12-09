@@ -33,10 +33,3 @@ Outputs:
     Description: URL of your API endpoint
     Value:
       Fn::Sub: 'https://${HttpApi}.execute-api.${AWS::Region}.${AWS::URLSuffix}/lambdafunction'
-
-
-
-
-
-
-echo; curl https://15e3ncfa24.execute-api.us-west-2.amazonaws.com/labfunction ; echo; echo
