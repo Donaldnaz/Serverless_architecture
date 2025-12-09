@@ -82,7 +82,7 @@ Typical layout used in this repo:
   
 - After deployment, copy the API endpoint URL from the stack outputs and test the routes with curl.
   
-<img width="1200" height="779" alt="Screenshot 2025-12-09 at 3 12 40 PM" src="https://github.com/user-attachments/assets/3220dae9-e6c9-4d4a-8f0c-b463d69db5cc" />
+<img width="1440" height="532" alt="Screenshot 2025-12-09 at 3 33 25 PM" src="https://github.com/user-attachments/assets/44b84889-5c1c-4bd6-9fa5-52425e0f2f1b" />
 
 ## Monitoring and Observability
 
