@@ -13,14 +13,14 @@ This repository demonstrates a modular, production-ready AWS Serverless architec
 ## Technologies Used
 
 | Component       | AWS Service               |
-|----------------|---------------------------|
-| Compute         | AWS Lambda (Node.js)      |
+|-----------------|---------------------------|
+| Compute         | AWS Lambda                |
 | API Gateway     | REST API                  |
 | Data Storage    | Amazon DynamoDB           |
 | Workflow        | AWS Step Functions        |
 | Infrastructure  | AWS SAM (YAML templates)  |
 | Observability   | CloudWatch, AWS X-Ray     |
-| DevOps          | SAM CLI |
+| DevOps          | SAM CLI                   |
 
 ## Getting Started
 
