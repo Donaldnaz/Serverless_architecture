@@ -8,14 +8,14 @@ The goal of the project is to implement a production style event driven applicat
 
 The solution follows a serverless, event driven design:
 
-* Amazon API Gateway exposes public HTTP endpoints for clients
-* AWS Lambda functions implement the core business logic in Python
-* Amazon DynamoDB stores application data with flexible, low latency access
-* Amazon S3 is used for storing payloads, exports, and logs
-* Amazon EventBridge or Amazon SQS handles asynchronous events and decoupling
-* Amazon CloudWatch provides logging, metrics, and alarms
-* AWS IAM controls access between all components
-* CloudFormation or AWS SAM defines the full stack as infrastructure as code
+| Layer           | AWS Service        | Purpose                                                      |
+| --------------- | ------------------ | ------------------------------------------------------------ |
+| **Client**      | Web / Mobile App   | Sends REST API requests to AWS API Gateway                   |
+| **API Gateway** | Amazon API Gateway | Exposes HTTPS endpoints and routes requests to Lambda        |
+| **Compute**     | AWS Lambda         | Executes backend logic in Python, retrieving data from S3    |
+| **Storage**     | Amazon S3          | Stores input data and object payloads                        |
+| **Monitoring**  | Amazon CloudWatch  | Captures logs, metrics, and performance traces               |
+| **Security**    | AWS IAM            | Enforces least-privilege access between services             |
 
 This architecture removes the need to manage servers while still supporting high throughput and fault tolerance.
 
@@ -78,7 +78,7 @@ Typical layout used in this repo:
 
 <img width="1200" height="777" alt="Screenshot 2025-12-09 at 3 05 26 PM" src="https://github.com/user-attachments/assets/e77058a0-1610-4ee2-97c2-629919267f54" />
 
-- Deploy the stack using `sam deploy`.
+- Build & Deploy the stack using `sam build` & `sam deploy`.
   
 - After deployment, copy the API endpoint URL from the stack outputs and test the routes with curl.
   
