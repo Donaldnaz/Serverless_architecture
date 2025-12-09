@@ -44,7 +44,7 @@ This architecture removes the need to manage servers while still supporting high
 
 Typical layout used in this repo:
 
-* `app.py/` application code for Lambda functions  
+* `app.py` application code for Lambda functions  
 * `template.yaml` infrastructure as code template  
 * `requirement.txt` AWS requirements for connection
 * `README.md` project documentation  
