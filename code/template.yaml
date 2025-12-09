@@ -1,0 +1,42 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+
+Resources:
+  LambdaFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      Role: !Sub arn:aws:iam::${AWS::AccountId}:role/my-lambda-GetObject1FunctionRole
+      CodeUri: LambdaFunction/
+      Handler: app.lambda_handler
+      Runtime: python3.12
+      Architectures:
+        - x86_64
+      Policies:
+        - S3ReadPolicy:
+            BucketName: sourcefiles-us-west-2-854105048
+      Events:
+        Sum:
+          Type: HttpApi
+          Properties:
+            Path: /lambdafunction
+            Method: get
+            ApiId: !Ref HttpApi
+
+  HttpApi:
+    Type: AWS::Serverless::HttpApi
+    Properties:
+      StageName: "$default"
+
+
+Outputs:
+  HttpApiUrl:
+    Description: URL of your API endpoint
+    Value:
+      Fn::Sub: 'https://${HttpApi}.execute-api.${AWS::Region}.${AWS::URLSuffix}/lambdafunction'
+
+
+
+
+
+
+echo; curl https://15e3ncfa24.execute-api.us-west-2.amazonaws.com/labfunction ; echo; echo
