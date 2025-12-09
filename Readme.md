@@ -8,7 +8,7 @@ The goal of the project is to implement a production style event driven applicat
 
 The solution follows a serverless, event driven design:
 
-<img width="850" height="512" alt="image" src="https://github.com/user-attachments/assets/83fd06fc-39da-45d2-8a37-5122fe4fffec" />
+<img width="1000" height="600" alt="image" src="https://github.com/user-attachments/assets/83fd06fc-39da-45d2-8a37-5122fe4fffec" />
 
 
 | Layer           | AWS Service        | Purpose                                                      |
@@ -73,7 +73,7 @@ Typical layout used in this repo:
 ### Deployment
 
 - Clone this repository.  
-- Install dependencies if a `requirements.txt` file is present.
+- Install dependencies `requirements.txt` 
 
 <img width="1200" height="778" alt="Screenshot 2025-12-09 at 2 51 42 PM" src="https://github.com/user-attachments/assets/fd1b5f93-6fbc-4402-bbb5-417f3294c2ac" />
 
