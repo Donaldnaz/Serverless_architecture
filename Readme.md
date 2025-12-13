@@ -19,19 +19,23 @@ The primary goals of this project were:
 
 The backend uses the following AWS services:
 
-<img width="776" height="491" alt="Screenshot 2025-12-10 at 3 05 37 PM" src="https://github.com/user-attachments/assets/12499b2c-5e0c-45f2-b389-6530a638ecc6" />
+<img width="976" height="591" alt="Screenshot 2025-12-10 at 3 05 37 PM" src="https://github.com/user-attachments/assets/ed3b3c03-2131-4bca-bfaa-b2502c38e365" />
 
 - Amazon API Gateway for REST API exposure
+  
 - AWS Lambda (Python) for stateless business logic
+  <img width="1440" height="780" alt="Screenshot 2025-12-12 at 4 02 49 PM" src="https://github.com/user-attachments/assets/d33fe773-9017-45f9-a8f5-55f32cf5b27a" />
 - Amazon DynamoDB for high performance NoSQL storage
+  <img width="1440" height="727" alt="Screenshot 2025-12-12 at 4 23 25 PM" src="https://github.com/user-attachments/assets/5d18834a-0f13-49f3-8649-4d4a22a04852" />
 - Amazon CloudWatch for logging, metrics, and monitoring
+  <img width="1440" height="726" alt="Screenshot 2025-12-12 at 4 24 05 PM" src="https://github.com/user-attachments/assets/d114c018-4c20-44f4-ade0-7feacdb0376e" />
 
 ### Request Flow
 
-1. A client sends a request to an API Gateway endpoint  
-2. API Gateway routes the request to a Lambda function  
-3. Lambda executes application logic and interacts with DynamoDB  
-4. CloudWatch captures logs and performance metrics  
+1. A client sends a request to an API Gateway endpoint
+3. API Gateway routes the request to a Lambda function  
+4. Lambda executes application logic and interacts with DynamoDB  
+5. CloudWatch captures logs and performance metrics  
 
 ---
 
