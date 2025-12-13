@@ -36,8 +36,6 @@ The backend uses the following AWS services:
 4. Lambda executes application logic and interacts with DynamoDB  
 5. CloudWatch captures logs and performance metrics  
 
----
-
 ## Data Model
 
 A single-table DynamoDB design is used to ensure predictable performance and scalability.
