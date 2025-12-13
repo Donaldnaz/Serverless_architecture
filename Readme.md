@@ -47,4 +47,8 @@ A single-table DynamoDB design is used to ensure predictable performance and sca
 
 <img width="1440" height="713" alt="Screenshot 2025-12-12 at 3 55 02 PM" src="https://github.com/user-attachments/assets/b85e179a-dbc5-4dbd-a043-294321d92406" />
 
-
+# Outcome
+- Stable and predictable low latency performance
+- Automatic scaling during high traffic periods
+- Simplified backend operations
+- Clean and extensible serverless architecture
