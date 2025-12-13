@@ -19,8 +19,6 @@ The primary goals of this project were:
 
 The backend uses the following AWS services:
 
-<img width="976" height="591" alt="Screenshot 2025-12-10 at 3 05 37 PM" src="https://github.com/user-attachments/assets/ed3b3c03-2131-4bca-bfaa-b2502c38e365" />
-
 - Amazon API Gateway for REST API exposure
   <img width="1440" height="727" alt="Screenshot 2025-12-12 at 4 23 25 PM" src="https://github.com/user-attachments/assets/5d18834a-0f13-49f3-8649-4d4a22a04852" />
 - AWS Lambda (Python) for stateless business logic
