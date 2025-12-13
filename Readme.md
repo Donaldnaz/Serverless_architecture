@@ -44,6 +44,6 @@ A single-table DynamoDB design is used to ensure predictable performance and sca
 **Partition Key:** record_type
 **Sort Key:** id
 
-<img width="451" height="223" alt="image" src="https://github.com/user-attachments/assets/6e377ec9-58cc-47b9-9175-53d4a850a781" />
+<img width="776" height="491" alt="image" src="https://github.com/user-attachments/assets/6e377ec9-58cc-47b9-9175-53d4a850a781" />
 
 
