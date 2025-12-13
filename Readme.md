@@ -19,6 +19,8 @@ The primary goals of this project were:
 
 The backend uses the following AWS services:
 
+<img width="976" height="591" alt="Screenshot 2025-12-10 at 3 05 37 PM" src="https://github.com/user-attachments/assets/dc81414a-aec3-44f7-94e2-6f8cefacbeb4" />
+
 - Amazon API Gateway for REST API exposure
 - AWS Lambda (Python) for stateless business logic
 - Amazon DynamoDB for high performance NoSQL storage
