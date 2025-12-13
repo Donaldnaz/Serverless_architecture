@@ -26,9 +26,8 @@ The backend uses the following AWS services:
 - AWS Lambda (Python) for stateless business logic
   <img width="1440" height="780" alt="Screenshot 2025-12-12 at 4 02 49 PM" src="https://github.com/user-attachments/assets/d33fe773-9017-45f9-a8f5-55f32cf5b27a" />
 - Amazon DynamoDB for high performance NoSQL storage
-  <img width="1440" height="727" alt="Screenshot 2025-12-12 at 4 23 25 PM" src="https://github.com/user-attachments/assets/5d18834a-0f13-49f3-8649-4d4a22a04852" />
-- Amazon CloudWatch for logging, metrics, and monitoring
   <img width="1440" height="726" alt="Screenshot 2025-12-12 at 4 24 05 PM" src="https://github.com/user-attachments/assets/d114c018-4c20-44f4-ade0-7feacdb0376e" />
+- Amazon CloudWatch for logging, metrics, and monitoring
 
 ### Request Flow
 
