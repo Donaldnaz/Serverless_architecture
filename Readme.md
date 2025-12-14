@@ -36,7 +36,6 @@ This architecture removes the need to manage servers while still supporting high
 * AWS Lambda  
 * Amazon DynamoDB  
 * Amazon S3  
-* Amazon EventBridge or Amazon SQS  
 * Amazon CloudWatch Logs and Metrics  
 * AWS IAM  
 * CloudFormation/AWS SAM  
