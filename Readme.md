@@ -111,4 +111,4 @@ Through this project I reinforced:
 * Applying observability and security best practices in a real cloud environment  
 
 ## Author
-# Anasieze Ikenna - Cloud Engineer
+## Anasieze Ikenna - Cloud Engineer
