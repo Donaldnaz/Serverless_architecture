@@ -1,4 +1,4 @@
-# Serverless; Solving Performance Issues with API Gateway, Lambda and DynamoDB.
+# Serverless: Solving Performance Issues with API Gateway, Lambda and DynamoDB.
 
 This repository contains a serverless backend system designed to modernize a vehicle rental platform that previously relied on a relational SQL database. The solution is built on AWS managed services to support unpredictable traffic spikes while maintaining consistent low latency performance.
 
