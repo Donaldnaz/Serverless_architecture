@@ -20,11 +20,8 @@ The primary goals of this project were:
 The backend uses the following AWS services:
 
 - Amazon API Gateway for REST API exposure
-<img width="1440" height="686" alt="Screenshot 2025-12-13 at 7 58 24 PM" src="https://github.com/user-attachments/assets/c4ba4d52-7a77-4411-aa98-0736265c6f88" />
 - AWS Lambda (Python) for stateless business logic
-  <img width="1440" height="780" alt="Screenshot 2025-12-12 at 4 02 49 PM" src="https://github.com/user-attachments/assets/d33fe773-9017-45f9-a8f5-55f32cf5b27a" />
 - Amazon DynamoDB for high performance NoSQL storage
-  <img width="1440" height="726" alt="Screenshot 2025-12-12 at 4 24 05 PM" src="https://github.com/user-attachments/assets/d114c018-4c20-44f4-ade0-7feacdb0376e" />
 - Amazon CloudWatch for logging, metrics, and monitoring
 
 ### Request Flow
@@ -42,8 +39,6 @@ A single-table DynamoDB design is used to ensure predictable performance and sca
 
 **Partition Key:** record_type
 **Sort Key:** id
-
-<img width="1440" height="713" alt="Screenshot 2025-12-12 at 3 55 02 PM" src="https://github.com/user-attachments/assets/b85e179a-dbc5-4dbd-a043-294321d92406" />
 
 # Outcome
 - Stable and predictable low latency performance
