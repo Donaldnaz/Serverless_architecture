@@ -16,7 +16,6 @@ The primary goals of this project were:
 - Reduced operational and infrastructure overhead
 
 ## Architecture
-
 The backend uses the following AWS services:
 
 - Amazon API Gateway for REST API exposure
@@ -25,18 +24,24 @@ The backend uses the following AWS services:
 - Amazon CloudWatch for logging, metrics, and monitoring
 
 ### Request Flow
-
 1. A client sends a request to an API Gateway endpoint
 3. API Gateway routes the request to a Lambda function  
 4. Lambda executes application logic and interacts with DynamoDB  
-5. CloudWatch captures logs and performance metrics  
+5. CloudWatch captures logs and performance metrics
+
+```
+code/
+├── Architecture.png                      # Infrastructure Diagram 
+├── setup.pdf                             # Setup to Deploy Stack
+├── app.py                                # Business Logic for Lambda
+├── README.md                             # This File
+
+````
 
 ## Data Model
-
 A single-table DynamoDB design is used to ensure predictable performance and scalability.
 
 **Table Name:** rental_app
-
 **Partition Key:** record_type
 **Sort Key:** id
 
