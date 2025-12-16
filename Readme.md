@@ -41,8 +41,11 @@ code/
 ## Data Model
 A single-table DynamoDB design is used to ensure predictable performance and scalability.
 
+
 **Table Name:** rental_app
+
 **Partition Key:** record_type
+
 **Sort Key:** id
 
 # Outcome
