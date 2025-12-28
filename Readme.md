@@ -72,7 +72,7 @@ It also shows **how to deploy LLMs without relying on external SaaS APIs**, givi
 - LangDetect for language detection  
 
 ```
-├── main.py                # Cloud Function entry point
+├── main.py                # Cloud Function
 ├── requirements.txt       # Python dependencies
 ├── README.md              # Project documentation
 ```
