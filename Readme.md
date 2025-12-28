@@ -75,7 +75,9 @@ It also shows **how to deploy LLMs without relying on external SaaS APIs**, givi
 ## Project Structure
 
 ├── main.py                # Cloud Function entry point
+
 ├── requirements.txt       # Python dependencies
+
 ├── README.md              # Project documentation
 
 
@@ -99,10 +101,11 @@ It also shows **how to deploy LLMs without relying on external SaaS APIs**, givi
   Automatically detects source language before translation.
 
 ---
+# Use Case
 
+Upload a subtitle file:
 ```
-deepseek-input/interview.srt
-
+bucket-input/interview.srt
 ```
 
 Result:
