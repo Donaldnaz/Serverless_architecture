@@ -71,15 +71,11 @@ It also shows **how to deploy LLMs without relying on external SaaS APIs**, givi
 - spaCy for sentence segmentation  
 - LangDetect for language detection  
 
-
-## Project Structure
-
+```
 ├── main.py                # Cloud Function entry point
-
 ├── requirements.txt       # Python dependencies
-
 ├── README.md              # Project documentation
-
+```
 
 ---
 
