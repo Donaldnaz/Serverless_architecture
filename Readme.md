@@ -46,7 +46,7 @@ It also shows **how to deploy LLMs without relying on external SaaS APIs**, givi
 
 ## 🏗️ Architecture Overview
 
-<img width="712" height="527" alt="Screenshot 2025-12-28 at 4 49 33 PM" src="https://github.com/user-attachments/assets/39a29368-7253-4e62-9229-d7052bdc3c68" />
+<img width="702" height="514" alt="Screenshot 2025-12-28 at 5 12 11 PM" src="https://github.com/user-attachments/assets/8556b8b6-e877-401c-8ba5-0e18c00db712" />
 
 ### Event Driven Flow
 
