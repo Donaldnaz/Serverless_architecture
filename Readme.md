@@ -2,7 +2,7 @@
 
 A **production ready, serverless AI translation system** that automatically translates uploaded files into multiple languages using a **locally hosted Large Language Model** deployed on **Google Cloud Functions**.
 
-This project demonstrates how to combine **Cloud Native architecture**, **LLMs**, **concurrency**, and **event driven processing** to build a scalable AI service suitable for media, localization, and enterprise workflows.
+This project demonstrates how to combine **Cloud Native architecture**, **LLMs**, and **event driven processing** to build a scalable AI service suitable for media, localization, and enterprise workflows.
 
 ---
 
