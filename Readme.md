@@ -6,15 +6,13 @@ This project demonstrates how to combine **Cloud Native architecture**, **LLMs**
 
 ---
 
-## What This Project Does
+## Tech Stack
 
-Whenever a file is uploaded to a Google Cloud Storage bucket, the system automatically:
-
-- Detects the source language
-- Translates the content into multiple target languages
-- Preserves original formatting for subtitles and structured data
-- Stores translated outputs in a dedicated output bucket
-- Prevents duplicate or parallel reprocessing safely
+### Cloud Platform
+- Google Cloud Platform  
+- Cloud Functions Gen 2  
+- Cloud Storage  
+- Eventarc
 
 ### Supported input formats
 - `.txt` plain text files
@@ -29,8 +27,6 @@ Whenever a file is uploaded to a Google Cloud Storage bucket, the system automat
 ---
 
 ## Why This Project Matters
-
-This is not a demo script.
 
 It solves **real problems companies face**:
 
@@ -55,15 +51,6 @@ It also shows **how to deploy LLMs without relying on external SaaS APIs**, givi
 3. The function downloads and loads a DeepSeek LLM from GCS  
 4. Text is chunked and translated concurrently  
 5. Outputs are written to a separate translation bucket
-
-
-## Tech Stack
-
-### Cloud Platform
-- Google Cloud Platform  
-- Cloud Functions Gen 2  
-- Cloud Storage  
-- Eventarc  
 
 ### AI and NLP
 - DeepSeek LLM hosted in GCS  
